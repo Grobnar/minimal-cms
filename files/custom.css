@@ -1,0 +1,34 @@
+
+.mask {
+    position: relative;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-attachment: fixed;
+}
+
+.page-block {
+    padding: 0;
+    border: 0;
+    margin: 0;
+
+    border-radius: 5px;
+}
+.page-block:hover {
+    cursor: pointer;
+    animation: block-selection 1s;
+}
+@keyframes block-selection {
+  from {
+      border: 0;
+      border-color: white;
+    }
+  to {
+      border: 5px;
+      border-color: blue;
+    }
+}

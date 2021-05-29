@@ -1,0 +1,107 @@
+[
+    {
+        "type": "Blockquote",
+        "template": "blockquote.php",
+        "fields": [
+            {
+                "name": "Quote",
+                "key": "quote",
+                "type": "string",
+                "placeholder": "..."
+            },
+            {
+                "name": "Citation",
+                "key": "citation",
+                "type": "string",
+                "placeholder": "..."
+            }
+        ]
+    },
+    {
+        "type": "Content",
+        "template": "content.php",
+        "fields": [
+            {
+                "name": "Text",
+                "key": "text",
+                "type": "text",
+                "placeholder": "..."
+            }
+        ]
+    },
+    {
+        "type": "Footer",
+        "template": "footer.php",
+        "fields": [
+            {
+                "name": "Copyright",
+                "key": "copyright",
+                "type": "string",
+                "placeholder": "© ..."
+            }
+        ]
+    },
+    {
+        "type": "Header",
+        "template": "header.php",
+        "fields": [
+            {
+                "name": "Heading",
+                "key": "heading",
+                "type": "string",
+                "placeholder": "..."
+            },
+            {
+                "name": "Subheading",
+                "key": "subheading",
+                "type": "string",
+                "placeholder": "..."
+            },
+            {
+                "name": "Background Image",
+                "key": "imageURL",
+                "type": "string",
+                "placeholder": "..."
+            }
+        ]
+    },
+    {
+        "type": "Text Heading",
+        "template": "heading.php",
+        "fields": [
+            {
+                "name": "Heading",
+                "key": "heading",
+                "type": "string",
+                "placeholder": "..."
+            }
+        ]
+    },
+    {
+        "type": "Menu",
+        "template": "menu.php",
+        "fields": []
+    },
+    {
+        "type": "Preformatted Text",
+        "template": "preformatted.php",
+        "fields": [
+            {
+                "name": "Code Snippet",
+                "key": "snippet",
+                "type": "text",
+                "placeholder": "..."
+            }
+        ]
+    },
+    {
+        "type": "Seperator",
+        "template": "seperator.php",
+        "fields": []
+    },
+    {
+        "type": "Tab Navigation",
+        "template": "tab-nav.php",
+        "fields": []
+    }
+]

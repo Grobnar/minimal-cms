@@ -1,0 +1,38 @@
+[
+    {"title":"Homepage","route":"\/home","blocks":[
+        {"name":"Menu","type":"Menu","template":"menu.php"},
+        {"name":"Header","type":"Header","template":"header.php","heading":"Minimal Page Builder","subheading":"A simple PHP and Bootstrap based CMS","imageURL":"https:\/\/mdbcdn.b-cdn.net\/img\/new\/slides\/041.jpg"},
+        {"name":"Seperator 1","type":"Seperator","template":"seperator.php"},
+        {"name":"Features Heading","type":"Text Heading","template":"heading.php","heading":"Features"},
+        {"name":"Feature Block","type":"Content","template":"content.php","text":"Simple PHP based CMS and Page Builder.<br>\r\nData is simply stored in and retrieved from JSON files.<br>\r\nUses PHP based templates to generate content blocks.<br>\r\n"},
+        {"name":"Seperator 2","type":"Seperator","template":"seperator.php"},
+        {"name":"Missing Features Heading","type":"Text Heading","template":"heading.php","heading":"Missing Features"},
+        {"name":"Missing Features","type":"Content","template":"content.php","text":"User and login system has not yet been implemented.<br>\r\nUI lacks many QoL features, such as reordering pages and blocks.<br>\r\n"},
+        {"name":"Seperator 3","type":"Seperator","template":"seperator.php"},
+        {"name":"Notice","type":"Preformatted Text","template":"preformatted.php","snippet":"I would not recommend using this CMS for a real website, but it is a simple base that can be built on.\r\nIt can also serve as a sandbox to experiment with the implementations of tools, without worrying about the strict data structures of a database."}
+    ]},
+    {"title":"Log In","route":"\/admin","blocks":[
+        {"name":"Menu","type":"Menu","template":"menu.php"},
+        {"name":"Seperator 1","type":"Seperator","template":"seperator.php"},
+        {"name":"Heading","type":"Text Heading","template":"heading.php","heading":"Log In"},
+        {"name":"Link","type":"Content","template":"content.php","heading":"","text":"The login system is not currently implemented.<br>Please use <a href=\"\/home?u=admin&m=sitemap\">this link<\/a>."}
+    ]},
+    {"title":"Elements","route":"\/elements","blocks":[
+        {"name":"Menu","type":"Menu","template":"menu.php"},
+        {"name":"Header","type":"Header","template":"header.php","heading":"Header","subheading":"Subheading","imageURL":""},
+        {"name":"Seperator 1","type":"Seperator","template":"seperator.php"},
+        {"name":"Preformatted Code","type":"Preformatted Text","template":"preformatted.php","snippet":"while (true){\r\n    echo \"Hello World\";\r\n}"},
+        {"name":"Seperator 2","type":"Seperator","template":"seperator.php"},
+        {"name":"Blockquote","type":"Blockquote","template":"blockquote.php","quote":"Lorem ipsum dolor vestibulum ante ipsum primis in faucibus vestibulum.","citation":"Citation"},
+        {"name":"Seperator 3","type":"Seperator","template":"seperator.php"},
+        {"name":"Heading","type":"Text Heading","template":"heading.php","heading":"Text Heading"},
+        {"name":"Content Block","type":"Content","template":"content.php","text":"Content \/ text block.<br>\r\nAccepts html tags like <strong>strong<\/strong>."},
+        {"name":"Footer","type":"Footer","template":"footer.php","copyright":"Footer, copyright text"}
+    ]},
+    {"title":"Error 404","route":"\/404","blocks":[
+        {"name":"Menu","type":"Menu","template":"menu.php"},
+        {"name":"Seperator","type":"Seperator","template":"seperator.php"},
+        {"name":"Heading","type":"Text Heading","template":"heading.php","heading":"Error 404"},
+        {"name":"Content Block","type":"Content","template":"content.php","text":"Defaults to the \"\/404\" route if it cannot find the requested page."}
+    ]}
+]
